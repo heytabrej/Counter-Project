@@ -1,0 +1,33 @@
+
+body{
+    background-color: rgb(181, 236, 42);
+}
+
+
+
+
+#countlabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#btncontainer{
+    text-align: center;
+
+}
+
+.button{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: aliceblue;
+    background-color: rgb(8, 96, 96);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.button:hover{
+    background-color: rgb(9, 53, 29);
+}
